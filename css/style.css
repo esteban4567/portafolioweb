@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet');
+
+body{
+    font-family: 'Kaushan Script', cursive;
+    background: url("s3.png")
+}
+
+.navbar .navbar-expand-lg .navbar-light{
+ position: relative;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+    font-size: 20px;
+    
+ 
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+    
+ 
+}
+
+
+
+
+
+ 
+.carousel {
+    position: relative;
+    font-size: 30px;
+    padding-top: 1px;
+}
+
+#carouselExampleCaptions h5{
+    color: blueviolet;
+    font-size: 50px;
+
+}
+.menu-fijo{
+    background: fixed;
+    position: revert;
+    z-index: 50;
+    width: 100%;
+    top: 0px;
+   
+    
+}
+
+#compras{
+    width: 100%;
+    position: relative;
+    padding: 200px 0px;
+    border: 0px;
+}
+#compras h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#compras .card-item-guayos{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    background:lightskyblue;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px 2px lightslategrey;
+    margin-bottom: 20px;
+    transition: 3s;
+    cursor: pointer;
+
+}
+#compras .card-item-guayos:hover{
+    box-shadow: 0px 8px 6px gray;
+
+}
+#compras .card-item-guayos img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+
+}
+#compras .card-item-guayos h2{
+    padding: 0px 30px;
+    margin-top: 10px;
+    font-size: 22px;
+}
